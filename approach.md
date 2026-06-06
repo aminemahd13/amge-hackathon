@@ -314,7 +314,10 @@ mock exam is a bit harsher than the real test, the leaderboard is our ground tru
 | File / folder | What it is |
 |---|---|
 | **`submission.csv`** | ⭐ The final answer we submit — the locked **2.741** predictions |
-| **`approach.md`** | This document |
+| **`approach.md`** | This document (plain-English) |
+| **`technical.md`** | The engineering-detail version (features, model configs, validation, math) |
+| **`delivery_model.ipynb`** | 📓 Local notebook: loads the saved model, predicts, what-if analysis, feature importance (imports the project's `.py` modules) |
+| **`delivery_model_kaggle.ipynb`** | ☁️ **Self-contained Kaggle notebook** (no imports; auto-detects inputs). Upload this one to Kaggle. |
 | **`data/`** | The raw competition data (`train.csv`, `test.csv`, `sample_submission.csv`) |
 | **`model/`** | 💾 The **saved trained model** — 4 booster files + `meta.json` (blend weights). Reusable. |
 | | |
